@@ -6,11 +6,12 @@ function setAlarm(h, m) {
     } else if (m - 45 < 0) {
         m = 60 + (m - 45);
         h -= 1;
-    } else if (h === -1) {
-        h = 23;
-    }
+        if (h === -1) {
+            h = 23;
+        }
+    } 
     console.log(h + ' ' + m);
     
 }
 
-setAlarm(10, 20);
+setAlarm(13, 10);
