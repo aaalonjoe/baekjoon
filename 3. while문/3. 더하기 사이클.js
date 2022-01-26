@@ -43,7 +43,7 @@
 function solution(n) {
 
     let num = n;
-    let sum;
+    let sum = 0;
     let i = 0;
 
     while (true) {
