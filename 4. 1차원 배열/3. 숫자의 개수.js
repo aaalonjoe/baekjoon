@@ -24,6 +24,7 @@ function solution() {
     // }
 
 
+    console.log(str);
     // 두번쨰 풀이
     for (let i = 0; i <= 9; i++) {
         
