@@ -23,7 +23,7 @@ function solution() {
     }
     console.log(count);
 
-    const max = Math.max(...count);  // 큰값들중 가장 왼쪽값이 나옴
+    const max = Math.max(...count);  // 큰값들중 가장 왼쪽값(먼저나온값)이 나옴
     console.log(max);
     
     // reduce는 잘모르겠다...
